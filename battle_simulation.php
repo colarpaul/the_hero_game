@@ -63,7 +63,7 @@ function check_battle_info($hero, $beast){
 
   $atk_def_saver = array();
 
-  while($counter_actions < 20 && ($stats['attacker_hp'] > 1 && $stats['defender_hp'] > 0)) {
+  while($counter_actions < 20 && ($stats['attacker_hp'] > 0 && $stats['defender_hp'] > 0)) {
 
     $damage = get_damage_info($attacker, $defender, $stats);
 
