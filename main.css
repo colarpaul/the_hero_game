@@ -1,0 +1,88 @@
+.hero_name,
+.beast_name {
+  color: red;
+}
+
+.skill_name {
+  color: red;
+  font-weight: bold;
+}
+
+.battle_simulation_title {
+  color: green;
+}
+
+.attacker_name,
+.defender_name {
+  color: green;
+  font-weight: bold;
+}
+
+.hero_stats_hp,
+.beast_stats_hp {
+  color: red;
+  font-weight: bold;
+}
+
+.hero_stats_str,
+.beast_stats_str {
+  color: blue;
+  font-weight: bold;
+}
+
+.hero_stats_def,
+.beast_stats_def {
+  color: green;
+  font-weight: bold;
+}
+
+.hero_stats_speed,
+.beast_stats_speed {
+  color: orange;
+  font-weight: bold;
+}
+
+.hero_stats_luck,
+.beast_stats_luck {
+  color: cyan;
+  font-weight: bold;
+}
+
+.battle_simulation_container {
+  position: fixed;
+  width: 400px;
+  right: 5%;
+  top: 10px;
+  max-height: 95%;
+  overflow: scroll;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hero_container,
+.beast_container {
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+td {
+  min-width: 80px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.info_attacker_name {
+  color: blue;
+  font-weight: bold;
+}
+
+.info_defender_name {
+  color: red;
+  font-weight: bold;
+}
